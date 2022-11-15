@@ -62,6 +62,7 @@ if params.switch_type == 'none':
     link1 = request.Link("link1")
     link1.addInterface(m1_iface)
     link1.addInterface(m2_iface)
+    pass
 else:
     sw1 = request.Switch("Sw1")
     sw1.hardware_type = params.switch_type
@@ -77,6 +78,7 @@ else:
     link2 = request.Link("link2")
     link2.addInterface(m2_iface)
     link2.addInterface(sw1_iface2)
+    pass
 
 # Install and execute a script that is contained in the repository.
 # m1.addService(pg.Execute(shell="sh", command="/local/repository/daemon.sh"))
