@@ -22,7 +22,7 @@ request = pc.makeRequestRSpec()
 pc.defineParameter("switch_type", "Switch 1 type",
                    portal.ParameterType.STRING, "apt-none",
                    [('mlnx-sn2410', 'Mellanox SN2410'),
-                    ('apt-none', 'none'),
+                    ('none', 'apt-none'),
                     ('dell-s4048',  'Dell S4048')])
 
 pc.defineParameter("node_type",
