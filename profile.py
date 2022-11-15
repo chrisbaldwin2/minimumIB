@@ -20,7 +20,7 @@ pc = portal.Context()
 request = pc.makeRequestRSpec()
  
 pc.defineParameter("switch_type", "Switch 1 type",
-                   portal.ParameterType.STRING, "apt-none",
+                   portal.ParameterType.STRING, "none",
                    [('mlnx-sn2410', 'Mellanox SN2410'),
                     ('none', 'apt-none'),
                     ('dell-s4048',  'Dell S4048')])
